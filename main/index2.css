@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Protest+Guerrilla&display=swap');
+body {
+    margin: 0;
+    font-family: 'Your-Unique-Font', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #000000 0%, #6a6f6d 100%) 0% 0% no-repeat
+    padding-box ;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Protest Guerrilla';
+    transition: color 0.3s ease-in-out;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #f17807bc;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0  rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-family: 'Assistant';
+    font-weight: 700;
+    margin: 0;
+}
+
+#opening {
+    padding: 100px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#opening h2 {
+    font-family: 'Assistant';
+    color: #333;
+}
+
+#opening p {
+    font-family: 'Assistant';
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#opening img {
+    width: 130px;
+    border-radius: 80px;
+    box-shadow: 0 0  rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-family: 'Assistant';
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#about a {
+    font-family: 'Protest Guerrilla';
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#about a:hover {
+    background-color: #333;
+} 
+.logos{
+    margin-left: 520px;
+    justify-content: center;
+    align-items:center ;
+
+}
+.img{
+    width: 50px;
+    margin: 10px;
+  
+}
+.project button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Assistant';
+    
+}
+
+.project button:hover {
+    background-color: #333;
+}
+
+#gallery {
+    padding: 50px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Assistant';
+}
+
+#contact {
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    font-family: 'Assistant';
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #ff7b00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+footer {
+    background: transparent linear-gradient(180deg, #6a6f6d 0%, #000000 100%) 0% 0% no-repeat;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Assistant';
+}
+
+.contacts{
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media (max-width: 850px) {
+    header {
+        padding: 10px;
+    }
+
+    header div {
+        align-items: center;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    nav a {
+        margin-left: 4px;
+        margin-bottom: 10px;
+    }
+
+    #opening {
+        padding: 80px 20px;
+    }
+
+    #opening img {
+        margin-top: 20px;
+    }
+
+    #about img {
+        max-width: 150px;
+    }
+    .logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    #gallery {
+        padding: 40px 20px;
+    }
+
+    .project button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    footer {
+        
+        width: 100%;
+    }
+}

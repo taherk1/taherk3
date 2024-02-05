@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Protest+Guerrilla&display=swap');
+        body {
+    margin: 0;
+    font-family: 'Your-Unique-Font', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent linear-gradient(180deg, #000000 0%, #6a6f6d 100%) 0% 0% no-repeat
+    padding-box ;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-family: 'Protest Guerrilla';
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #ff7b00;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0  rgba(0, 0, 0, 0.1);
+}
+.logos{
+    margin-left: 350px;
+    justify-content: center;
+    align-items:center ;
+
+}
+.the-project {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.the-project .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Assistant';
+}
+
+.the-project .img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+        .buttons-container {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .download-button,
+        .live-button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            font-family: 'Assistant';
+        }
+
+        .download-button:hover,
+        .live-button:hover {
+            background-color: #555;
+        }
+
+footer {
+    background: transparent linear-gradient(180deg, #6a6f6d 0%, #000000 100%) 0% 0% no-repeat;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Assistant';
+    
+}
+@media (max-width: 850px) {
+    
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        margin-left: 10px;
+    }
+
+    .logos {
+        margin-left: 0;
+    }
+
+    .the-project {
+        margin: 20px;
+    }
+
+    .buttons-container {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+        </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="taher-kassem-high-resolution-logo-transparent (1).png" alt="Your Logo" id="mylogo">
+            
+        </div>
+        <nav>
+            <a href="index2.html#opening">Home</a>
+            <a href="index2.html#about">About</a>
+            <a href="index2.html#gallery">Gallery</a>
+            <a href="index2.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="the-project">
+        <div class="title">
+            <h1>Welcome to project 1</h1>
+        </div>
+        <div class="logos">
+            <img src="html5-logo-24 (1).png" class="img" alt="HTML Logo">
+            <img src="css3-logo-24.png" class="img" alt="CSS Logo">
+           <img src="javascript-logo-24.png" class="img" alt="JavaScript Logo">
+        </div>
+        <div class="img">
+            <img src="Project-4.png" alt="project 1">
+        </div>
+
+    </div>
+    <div class="buttons-container">
+        <a href="../downloads/project4D.rar" download class="download-button">Download Project</a>
+        <a href="../project4/project4.html" class="live-button">View Live</a>
+    </div>
+
+    <footer>
+        <p>Created by Taher Kassem | All rights reserver</p>
+    </footer>
+</body>
+</html>
